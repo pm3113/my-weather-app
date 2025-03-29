@@ -1,0 +1,34 @@
+body {
+    background-image: url('/static/background.jpg');  /* Use local image */
+    background-size: cover;  /* Cover full screen */
+    background-position: center;  /* Center the image */
+    background-attachment: fixed;  /* Fixed background */
+    font-family: Arial, sans-serif;  /* Set a readable font */
+    color: white;  /* Text color */
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.6);  /* Dark overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: orange;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
